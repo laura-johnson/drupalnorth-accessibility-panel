@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img style="border: 0; box-shadow: none; width: 10%;" src="images/drupal_north_logo.png">
+					<h1>Making Drupal More Accessible</h1>
+					<h2>A Panel Discussion</h2>
+					Drupal North 2019
+				</section>
+				<section>
+					<img style="border: 0; box-shadow: none; width: 40%;" src="images/dboudreau-2016.jpg">
+					<h2>Denis Boudreau</h2>
+					<ul style="font-size: 80%">
+						<li>Expert member of the World Wide Web Consortium (W3C)</li>
+						<li>In the Education and Outreach Working Group (EOWG)</li>
+						<li>Certified Professional in Web Accessibility (CPWA)</li>
+						<li>Has been advocating inclusion for people with disabilities and the elderly on the Web for over 19 years</li>
+						<li>A shameless geek with a fixation on inclusive design</li>
+					</ul>
+				</section>
+				<section>
+					<img style="border: 0; box-shadow: none; width: 15%;" src="images/mike.jpg">
+					<h2>Mike Gifford</h2>
+					<ul style="font-size: 80%">
+						<li>Founder and President of OpenConcept Consulting </li>
+						<li>Open Concept specializes in Drupal and has over 16 years of experience in architecting secure, scalable, inclusive and sustainable solutions for the non-for-profit, public and private sectors</li>
+						<li>Drupal’s Core Accessibility Maintainer since 2012</li>
+						<li>Has spearheaded accessibility improvements in Drupal since 2008</li>
+					</ul>
+				</section>
+				<section>
+					<img style="border: 0; box-shadow: none; width: 30%;" src="images/laura.jpg">
+					<h2>Laura Johnson</h2>
+					<ul style="font-size: 80%">
+						<li>Senior Software Developer and Drupal Mentor at Myplanet</li>
+						<li>Has been a Drupal developer for over 10 years</li>
+						<li>Wrote an article in 2018 on Comparing Automated Accessibility Testing Tools</li>
+						<li>Wrote an article in 2019 on Web Accessibility + Machine Learning</li>
+						<li>Organizer of Drupal North</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Is Drupal really the most accessible CMS out there?</h2>
+					How would we know? What would that mean?
+				</section>
+				<section>
+					<h2>What are you excited about in WCAG 2.1, 2.2 and Silver?</h2>
+					What should developers know going ahead? How quickly will it change?
+				</section>
+				<section>
+					<h2>What is this Bill C81 thing and how does it apply to me?</h2>
+					 What affects do you hope it will have for creating a more accessible Canada?
+				</section>
+				<section>
+					<h2>AI: how much is hype?</h2>
+					 Where can we realistically see AI being used in our web projects in the near future?
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
